@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65054BE0-3E02-4AEB-B535-2E52222C7BB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>miumiu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8ED90101EA891C6E9E88259223C3356FADF71350</key>
+		<string>https://github.com/Johnqing/miumiu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>miumiu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8ED90101EA891C6E9E88259223C3356FADF71350</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Johnqing/miumiu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8ED90101EA891C6E9E88259223C3356FADF71350</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8ED90101EA891C6E9E88259223C3356FADF71350</string>
+			<key>IDESourceControlWCCName</key>
+			<string>miumiu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
