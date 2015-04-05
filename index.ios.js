@@ -80,7 +80,7 @@ var Miumiu = React.createClass({
         return this.renderLoadingView();
     return (
         <View style={styles.container}>
-          <Head>随机推荐</head>
+          <Head>随机推荐</Head>
           <ListView
             dataSource={this.state.dataSource}
             renderRow={this.renderList}
