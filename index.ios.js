@@ -2,34 +2,35 @@
 
 var React = require('react-native');
 var {
-  NavigatorIOS,
-  AppRegistry,
-  StyleSheet,
-} = React;
+    NavigatorIOS,
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    } = React;
 
-
-var Content = require('./modules/Content');
+var Body = require('./libs/body');
 
 // 启动
-var Miumiu = React.createClass({
-  render: function() {
-    return (
-      <NavigatorIOS
-        style={styles.container}
-        initialRoute={{
-          title: '随意听听',
-          component: Content,
-        }}
-      />
-      );
-  }
-});
-// 公共样式
-var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
+var miumiu = React.createClass({
+    render () {
+        return (
+            <NavigatorIOS
+                ref="nav"
+                style={styles.container}
+                initialRoute={{
+                  title: '随意听听',
+                  component: Body
+                }}
+            />
+        );
+    }
 });
 
-AppRegistry.registerComponent('miumiu', () => Miumiu);
+var styles = StyleSheet.create({
+    container: {
+        flex:1
+    }
+});
+
+AppRegistry.registerComponent('miumiu', () => miumiu);
